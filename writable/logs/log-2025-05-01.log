@@ -1,0 +1,121 @@
+CRITICAL - 2025-05-01 17:11:19 --> Error: Call to undefined function get_user()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\header.php on line 48.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(34): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+DEBUG - 2025-05-01 17:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-01 17:14:43 --> Error: Call to undefined function get_user()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\header.php on line 48.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(34): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+CRITICAL - 2025-05-01 17:48:59 --> Error: Call to undefined function get_settings()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\leftSidebar.php on line 4.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(37): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+CRITICAL - 2025-05-01 17:49:38 --> Error: Call to undefined function get_settings()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\leftSidebar.php on line 4.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(37): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+DEBUG - 2025-05-01 17:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-01 17:49:57 --> Error: Call to undefined function get_settings()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\leftSidebar.php on line 4.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(37): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+DEBUG - 2025-05-01 17:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-01 17:50:17 --> Error: Call to undefined function current_route_name()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\leftSidebar.php on line 15.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(37): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+DEBUG - 2025-05-01 18:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-01 18:15:31 --> Error: Call to undefined function get_settings()
+[Method: GET, Route: admin/home]
+in APPPATH\Views\backend\layout\inc\footer.php on line 6.
+ 1 APPPATH\Views\backend\layout\pages-layout.php(50): include()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\sisfo_akademik\\app\\Views\\backend\\layout\\pages-layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('backend/layout/pages-layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/pages/home', [], true)
+ 6 APPPATH\Controllers\AdminController.php(22): view('backend/pages/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sisfo_akademik\\public\\index.php')
+DEBUG - 2025-05-01 18:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-01 18:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-01 18:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-01 18:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-01 18:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
