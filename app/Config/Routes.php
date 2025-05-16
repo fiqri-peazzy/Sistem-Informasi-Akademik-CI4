@@ -40,6 +40,11 @@ $routes->group('admin', static function ($routes) {
 
         // Data User
         $routes->get('data_user', 'AdminController::pageUsers', ['as' => 'page.users']);
+        $routes->post('tambah-user', 'AdminController::dataUserStore', ['as' => 'data.user.store']);
+        $routes->get('datatables-user', 'AdminController::datatablesUser', ['as' => 'datatable.user']);
+        $routes->get('data-users', 'AdminController::dataUser', ['as' => 'get.user']);
+        $routes->post('edit-user', 'AdminController::dataUserUpdate', ['as' => 'data.user.update']);
+        $routes->get('hapus-user', 'AdminController::dataUserDrop', ['as' => 'data.user.drop']);
     });
     $routes->group('', ['filter' => 'cifilter:guest'], static function ($routes) {
         $routes->get('login', 'AuthController::loginForm', ['as' => 'admin.login.form']);

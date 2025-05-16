@@ -83,6 +83,14 @@
             }
         }
     );
+    $(document).ready(function() {
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "positionClass": "toast-bottom-center",
+            "timeOut": "3000"
+        };
+    });
     </script>
     <?= $this->renderSection('scripts') ?>
 </body>
